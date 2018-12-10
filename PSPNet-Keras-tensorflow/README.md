@@ -1,4 +1,12 @@
 # Keras implementation of [PSPNet(caffe)](https://github.com/hszhao/PSPNet)
+Source: https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow
+**Just changed how the code takes input. instead of single image now it converts whole folder containing images.
+for our usage only used the pretrained weights on PASCAL VOC dataset.
+
+usage: 
+**python pspnet.py -m pspnet101_voc2012 -g [location of input folder] -o [location of output folder]
+
+
 
 Implemented Architecture of Pyramid Scene Parsing Network in Keras.
 
